@@ -3,7 +3,7 @@ import { Router } from "./routes";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Consumindo-api-do-github">
       <Router />
     </BrowserRouter>
   );
